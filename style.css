@@ -15,7 +15,10 @@ IMG.displayed
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Montserrat, sans-serif;
+    font-family: BigNoodleTitling;
+    font-size: large;
+    letter-spacing: 0.3pt;
+    word-spacing: 1pt;
 }
 nav {
     width: 100%;
@@ -116,31 +119,146 @@ li a {
   } 
   body {
     background: rgb(0,0,0);
-background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(242,121,20,1) 58%);
+background: linear-gradient(65deg, rgba(0,0,0,1) 0%, rgba(223,124,15,1) 18%, rgba(253,130,26,1) 66%);
   }
   footer
   {
       text-align:center;
-      position: fixed;
       bottom:0;
       width:100%;
       display:inline-block;
-      vertical-align:top;
       font-size:18px;
+      margin: 30px auto;
   }
 .hdp {
-  float: right;
+  position: fixed;
+  left: 87%;
+  width: auto;
+  bottom:0;
+  font-size:18px;
 }
-.s1 {
+.hdp a {
+  background-color:black;
+  padding: 10px 25px;
+  color: darkgoldenrod;
+  border-radius: 4px;
+  list-style-type: none;
+}
+.hdp a:hover {
+  background-color: darkgoldenrod;
+  color:black;
+}
+footer a {
+    background-color:black;
+    padding: 10px 25px;
+    color:darkgoldenrod;
+    border-radius: 4px;
+    list-style-type: none;
+}
+footer a:hover {
+  background-color: darkgoldenrod;
+  color:black;
+}
+.center {
   width: 960px;
   margin: 0 auto;
   padding-top: 25px;
 }
 h1 {
   margin-bottom: 15px;
+  font-size: xx-large;
 }
 .s2 {
   width: 1100px;
   margin: 0 auto;
   padding-top: 25px;
+}
+div.Escorte {
+  display: block;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+h3 {
+  position: center;
+  text-decoration: underline;
+  text-align: center;
+  font-size: xxx-large;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+h2 {
+  display: block;
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+div.Hybride {
+  display: block;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+div.Controle {
+  display: block;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+div.Push {
+  display: block;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.perso {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+figcaption {
+  background-color:black;
+  color: darkgoldenrod;
+  font-weight: bold;
+  padding: 3px;
+  text-align: center;
+  border: darkgoldenrod;
+  border-radius: 10px;
+}
+.center2 {
+  width: 1350px;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+.cartes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  position: center;
+}
+.center3 {
+  width: 1150px;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+.equipes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  position: center;
+}
+.center4 {
+  width: 1250px;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+.evenement {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  position: center;
+}
+h4 {
+  margin-bottom: 15px;
+  font-size: xx-large;
+  margin-top: 25px;
+}
+.roles {
+  margin-bottom: 15px;
+  margin-top: 25px;
 }
